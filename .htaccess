@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteCond %{REQUEST_URI} !^public
+RewriteRule ^(.*)$ public/$1 [L]
+
+RewriteRule .* - [E=noabort:1]
+RewriteRule .* - [E=noconntimeout:1]

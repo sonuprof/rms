@@ -1,0 +1,81 @@
+ .btnNonActive {
+   color: black !important;
+   background-color: white !important;
+   border: 1px solid #D6D6D6 !important;
+ }
+
+ .btnActive {
+   color: #4c87ff !important;
+   background: #F0F7FF !important;
+   border: 1px solid #4c87ff !important;
+ }
+
+ body::-webkit-scrollbar {
+   width: 7px;
+ }
+
+ body::-webkit-scrollbar-track {
+   background: #f1f1f1;
+ }
+
+ body::-webkit-scrollbar-thumb {
+   background: #7F7F7F;
+   border-radius: 5px;
+ }
+
+
+ .bordBottom {
+   border-bottom: 3px solid #4c87ff !important;
+
+ }
+
+
+ .pColor {
+   color: #707888 !important;
+
+ }
+
+
+
+
+
+
+
+
+ .deviceUl {
+   display: flex !important;
+   flex-direction: row !important;
+   align-items: center !important;
+   height: 100% !important;
+   margin-left: -20px !important;
+   width: 15%;
+   list-style: none !important;
+ }
+
+ .tab {
+   padding-bottom: 12px !important;
+   margin-right: 3rem !important;
+ }
+
+
+
+
+ .fontColo {
+   color: #909090 !important;
+ }
+
+ .cardy {
+   min-height: 78vh !important;
+
+ }
+
+ .hide {
+   display: none;
+ }
+
+ .show {
+   background-color: #eee6e6;
+   overflow: hidden;
+   z-index: 1000000;
+   display: block;
+ }
